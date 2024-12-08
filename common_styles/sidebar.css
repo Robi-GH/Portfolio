@@ -1,0 +1,49 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin: 14px;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  width: 22px;
+  top: 200px;
+}
+
+img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar img {
+  height: 25px;
+}
+
+.dugme1 .tooltiptext,
+.dugme2 .tooltiptext,
+.dugme3 .tooltiptext,
+.dugme4 .tooltiptext,
+.dugme5 .tooltiptext {
+  font-family: Arial;
+  position: absolute;
+  color: white;
+  background-color: rgba(1, 1, 69, 0.415);
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 6px;
+  font-size: 20px;
+  margin-left: 4px;
+  margin-top: 4px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.dugme1:hover .tooltiptext,
+.dugme2:hover .tooltiptext,
+.dugme3:hover .tooltiptext,
+.dugme4:hover .tooltiptext,
+.dugme5:hover .tooltiptext{
+  opacity: 1;
+}

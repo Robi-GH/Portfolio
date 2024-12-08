@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color:  #cad5e9;
+  height: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+

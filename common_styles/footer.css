@@ -1,0 +1,50 @@
+footer {
+  padding: 12px;
+  height: 20px;
+  display: flex;
+  flex: 1;
+  margin-top: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.drustvene_mreze{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drustvene_mreze img {
+  margin-left: 12px;
+}
+
+.sredina_footera {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font: small;
+  font-size: smaller;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.copy_img {
+  height: 12px;
+  margin: 0;
+}
+
+.home{
+  height: 20px;
+  cursor: pointer;
+}

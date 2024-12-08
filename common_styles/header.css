@@ -1,0 +1,172 @@
+header {
+  padding: 12px;
+  padding-left: 20px;
+  height: 70px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  top: 0px;
+}
+
+.moja_slika {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  height: 70px;
+  width: 70px;
+  border-radius: 60px;
+  background-color: white;
+  cursor: pointer;
+  border-width: 1px;
+}
+
+.pretraga {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+}
+
+.dugme_za_pretragu {
+  height: 37px;
+  width: 37px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  border-color: rgb(167, 190, 174);
+  margin-left: 4px;
+  cursor: pointer;
+
+}
+
+.ikona_za_pretragu {
+  height: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search_bar {
+  border-width: 1px;
+  height: 33px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(167, 190, 174);
+
+}
+
+.dugmadi_za_navigaciju{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dugme_header {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 120px;
+  height: 35px;
+  font-size: 16px;
+  padding-top: 2px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: 0.12s;
+  text-transform: uppercase;
+}
+
+.dugme_header:hover{
+  color: black;
+  background-color: white;
+  box-shadow: 2px 2px 2px black;
+
+}
+
+.dugme_header:active {
+  margin-top: 2px;
+  margin-left: 7px;
+  margin-right: 3px;
+  margin-bottom: -2px;
+  box-shadow: none;
+}
+
+.dugmadi_za_navigaciju_mini {
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.dugme_malo {
+  display: none;
+}
+
+.ikona_za_navigaciju {
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#side_navigacija{
+  display: none;
+}
+
+@media (max-width:1000px){
+  .dugmadi_za_navigaciju{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 30%;
+    width: 130px;
+    top: 70px;
+    right: 12px;
+    margin: 0;
+    border-color: rgb(167, 190, 174);
+  }
+  .dugme_header {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-top: 2px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.12s;
+  }
+  .dugme_header:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 2px black;
+  }
+  .dugme_header:active {
+    margin-top: 4px;
+    margin-left: 14px;
+    margin-bottom: 8px;
+    box-shadow: none;
+  }
+  .dugme_malo{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  .dugmadi_za_navigaciju_mini{
+    display: block;
+  }
+  #side_navigacija:checked ~ .dugmadi_za_navigaciju{
+    display: flex;
+  }
+}
+
