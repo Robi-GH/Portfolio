@@ -1,0 +1,60 @@
+main {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  justify-content: space-between;
+  color: rgb(1, 1, 69);
+}
+
+.okvir_slika {
+  border: solid 3px black;
+  border-radius: 10px;
+  padding: 2%;
+  display:grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: auto;
+  transition: 0.4s ease;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: auto;
+}
+
+.okvir_slika img {
+  width: 80%;
+  border-radius: 10px;
+  align-items: center;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 100px;
+  font-size: xx-large;
+  padding: 12px;
+}
+
+p {
+  font-size: large;
+  padding: 12px;
+}
+
+video {
+  width: 75%;
+  border-radius: 12px;
+  align-items: center;
+  margin: auto;
+}
+
+@media (max-width:800px) {
+  .okvir_slika {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr auto;  
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+}

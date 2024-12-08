@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> O meni </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon/ikona.png">
+    <link rel="stylesheet" href="common_styles/general.css">
+    <link rel="stylesheet" href="common_styles/footer.css">
+    <link rel="stylesheet" href="common_styles/header.css">
+    <link rel="stylesheet" href="common_styles/sidebar.css">
+    <link rel="stylesheet" href="O_Meni.css">
+  </head>
+  <body>
+    <header>
+        <a href="Glavna_stranica.html"><img src="slike/Profilna.png" class="moja_slika"></a>
+        <div class="pretraga">
+          <input class="search_bar" type="text" placeholder="Search" style="padding-left: 10px;"> 
+          <button class="dugme_za_pretragu"><img src="glyphicon/pretraga.png" class="ikona_za_pretragu"></button>
+        </div>
+        <input type="checkbox" id="side_navigacija">
+          <div class="dugmadi_za_navigaciju_mini">
+            <label for="side_navigacija" class="dugme_malo"><img class="ikona_za_navigaciju" src="glyphicon/list.svg"></label>
+          </div>
+        <div class="dugmadi_za_navigaciju">     
+            <a href="Glavna_stranica.html"><button class="dugme_header"> Početna </button></a> 
+            <a href="O_Meni.html"><button class="dugme_header"> O Meni </button></a>
+            <a href="Blog.html"><button class="dugme_header"> Blog </button></a>
+            <a href="Galerija_1.html"><button class="dugme_header"> Galerija 1 </button></a>
+            <a href="Galerija_2.html"><button class="dugme_header"> Galerija 2 </button></a>
+        </div>
+    </header>
+    <div class="sidebar">
+      <a href="#Biografija" class="dugme1"><img  src="glyphicon/circle.svg"> <span class="tooltiptext">Biografija</span></a>
+      <a href="#Moje_obrazovanje_i_vještine" class="dugme2"><img  src="glyphicon/circle.svg"><span class="tooltiptext">Moje obrazovanje i vještine</span></a>
+      <a href="#Maturski_rad" class="dugme3"><img src="glyphicon/circle.svg"><span class="tooltiptext">Maturski rad</span></a>
+      <a href="#Projekti" class="dugme4"><img  src="glyphicon/circle.svg"><span class="tooltiptext">Projekti</span></a>
+      <a href="#Moj_CV" class="dugme5"><img  src="glyphicon/circle.svg"><span class="tooltiptext">Moj CV</span></a>
+    </div>
+    <main>
+        <div class="biografija" id="Biografija">
+          <h1>Biografija</h1>
+          <div class="biografija-podaci">
+            <img src="slike/Maturska_slika.jpg" class="slika">
+            <div class="text">
+              <p>
+                Zovem se Robert Marić, imam 24 godine, rođen sam Dubrovniku, a trenutno živim u Sarajevu, gdje studiram na Prirodno-matematičkom fakultetu. Moje obrazovanje započelo je u općoj-realnoj gimnaziji, koja me podstakla da istražujem različite aspekte nauke i tehnologije. Prvi susret s programiranjem doživio sam tokom gimnazije, a ta radoznalost prerasla je u pravu strast. Danas, kroz studij i projekte, razvijam vještine u IT sektoru s jasnom vizijom izgradnje karijere u ovoj oblasti.
+              </p>
+              <p>
+                Tokom fakultetskog obrazovanja, bavio sam se različitim studentskim poslovima, što mi je omogućilo stjecanje praktičnog iskustva u različitim industrijama. Ova iskustva su mi pomogla da razvijem snažne radne navike, odgovornost i sposobnost prilagođavanja izazovima. Stečene vještine dodatno su učvrstile moj cilj da nastavim raditi na profesionalnom usavršavanju. Na primjer, kroz ove poslove naučio sam se učinkovitom upravljanju vremenom i usmjerenju prema rezultatima, što smatram ključnim osobinama za uspjeh u IT industriji.              </p>
+              <p>
+                Srednjoškolski dani također su ostavili snažan pečat na mene. Tokom tih godina trenirao sam rukomet, što je bila sjajna prilika za razvoj timskog duha, discipline i upornosti. Smatram da je sport jedan od najboljih načina da se nauči važnost kolektivnog duha i suradnje, osobina koje su mi pomogle u brojnim situacijama, bilo da je riječ o timskim projektima na fakultetu ili o profesionalnim izazovima.
+              </p>
+              <p>
+                Pored programiranja, veoma me zanima istraživanje novih tehnologija. Uvijek težim da budem u toku s najnovijim trendovima i inovacijama u IT svijetu jer vjerujem da je kontinuirano učenje ključno za napredak u modernom, dinamičnom okruženju. Oduvijek sam bio privučen idejom da kroz programiranje i inovacije mogu kreirati rješenja koja unapređuju svakodnevni život i poslovanje. Posebno me inspiriše mogućnost da kroz tehnologiju rješavam probleme i unapređujem kvalitet života ljudi.
+              </p>
+            </div>
+          </div>
+          <div class="osnovni_podaci">
+            <h2>Osnovni podaci: </h2>
+            <ul>
+              <li> Godina rođenja: 04.11.2000. </li>
+              <li> Telefon: 062/096-799 </li>
+              <li> Email: robert.maric@student.pmf.unsa.ba </li>
+            </ul>
+          </div>
+        </div>
+        <div id="Moje_obrazovanje_i_vještine">
+          <h1> Moje obrazovanje i vještine </h1>
+          <h2>Moje obrazovanje </h2>
+          <div class="tabela">
+            <table>
+              <tr>
+                <th>Godina početka</th>
+                <th>Godina završetka</th>
+                <th>Naziv škole/fakulteta</th>
+                <th>Stepen stečenog obrazovanja</th>
+                <th>Adresa škola/fakulteta</th>
+                <th>Grad</th>
+              </tr>
+              <tr>
+                <td>2007</td>
+                <td>2016</td>
+                <td>OŠ Meša Selimović</td>
+                <td>Osnovni stepen obrazovanja</td>
+                <td>Geteova 16, Sarajevo 71000</td>
+                <td>Sarajevo</td>
+              </tr>
+              <tr>
+                <td>2016</td>
+                <td>2020</td>
+                <td>KŠC "SV. JOSIP" - OPĆA REALNA GIMNAZIJA</td>
+                <td> Srednja stručna sprema </td>
+                <td>Mehmed paše Sokolovića 11, 71 000 Sarajevo</td>
+                <td>Sarajevo</td>
+              </tr>
+              <tr>
+                <td>2021</td>
+                <td></td>
+                <td>Prirodno-matematički fakultet</td>
+                <td>Bachelor diploma</td>
+                <td>Zmaja od Bosne 33-35, Sarajevo 71000</td>
+                <td>Sarajevo</td>
+              </tr>
+            </table>
+          </div>
+          <h2> Moje vještine </h2>
+          <div class="Moje_vjestine">
+            <h3> Tehničke vještine </h3>
+            <ul>
+              <li>Programski jezici: Iskustvo s programiranjem u jezicima poput Pythona, C, i C++, s naglaskom na osnovne koncepte, strukture podataka, i algoritme, kao i na praktičnu primjenu u projektima.</li>
+              <li>Razvoj web stranica: osnove HTML, CSS, i JavaScript; rad na kreiranju i optimizaciji web stranica.</li>
+              <li>Baze podataka: sposobnost dizajniranja ER modela i rad s bazama podataka poput MySQL ili PostgreSQL.</li>
+              <li>Rješavanje problema: sposobnost analize i rješavanja kompleksnih tehničkih izazova.</li>
+            </ul>
+            <h3> Osobne vještine </h3>
+            <ul>
+              <li>Timski rad: Iskustvo u radu s različitim ljudima i timovima, s naglaskom na suradnju i doprinos zajedničkim ciljevima. Ove vještine dodatno su razvijene kroz sportske aktivnosti, gdje su suradnja i timski duh ključni.</li>
+              <li>Rješavanje problema: Sposobnost analitičkog pristupa izazovima, s kreativnim rješenjima za kompleksne situacije. Skup vještina za procjenu problema i donošenje brzih i učinkovitih rješenja.</li>
+              <li>Emocionalna inteligencija: Sposobnost razumijevanja i upravljanja vlastitim emocijama te prilagođavanja reakcija kako bi komunikacija i suradnja bili što učinkovitiji, što je korisno u radu s različitim osobama i timovima.</li>
+              <li>Prilagodljivost: Otvorenost prema promjenama i sposobnost brzog usvajanja novih znanja i vještina, što omogućava učinkovito funkcioniranje u promjenjivim radnim okruženjima.</li>
+            </ul>
+          </div>
+        </div>
+        <div id="Maturski_rad">
+          <h1> Maturski rad </h1>
+          <div class="Maturski_rad_podaci">
+            <h2> Otkriće Amerike Kristofer Kolumbo </h2>
+            <div class="dio_unutra">
+              <div>
+                <p>Otkriće Amerike od strane Kristofora Kolumba je jedno od najvažnijih događaja u svjetskoj povijesti, jer je označilo početak europske kolonizacije Novog svijeta. Kolumbo, talijanski pomorac koji je radio pod španjolskom krunom, krenuo je na ekspediciju 1492. godine s ciljem pronalaska zapadnog morskog puta do Azije. On i njegovi ljudi stigli su do Bahama 12. listopada 1492. godine, vjerujući da su pronašli otočje blizu Azije, no zapravo su otkrili novi kontinent koji Europljani do tada nisu poznavali.</p>
+                <p>U kasnom 15. stoljeću, Europljani su tražili nove trgovinske rute do Azije, posebno zbog začina, svile, zlata i drugih luksuznih roba koje su bile vrlo tražene u Europi. Međutim, tradicionalni kopneni putevi do Azije bili su dugački, skupi i opasni zbog geografskih prepreka i političkih sukoba. Kristofor Kolumbo, talijanski moreplovac iz Genove, bio je uvjeren da bi se Azija mogla dosegnuti plovidbom prema zapadu preko Atlantskog oceana, vjerujući da je Zemlja manja nego što su tadašnje procjene govorile. Godine 1492., španjolski kralj Ferdinand i kraljica Izabela konačno su odlučili financirati Kolumbov projekt, nadajući se da će pronaći brži put do bogatstava Azije i proširiti španjolski utjecaj.</p>
+                <p>Kolumbo je isplovio 3. kolovoza 1492. godine s tri broda: Santa María, Pinta i Niña. Nakon nekoliko mjeseci na moru, 12. listopada 1492. njegova posada ugledala je kopno, današnje Bahamske otoke. Kolumbo je vjerovao da je stigao na otoke blizu Azije, a ne na do tada nepoznati kontinent. Nakon Bahama, istraživao je i druga područja u Karipskom moru, uključujući današnju Kubu i Hispaniolu (suvremeni Haiti i Dominikanska Republika).</p>
+                <p>Iako Kolumbo nije shvatio da je otkrio Novi svijet, njegovo otkriće pokrenulo je niz događaja koji su trajno izmijenili povijest. Njegovi su povratni izvještaji privukli pažnju europskih sila, što je dovelo do daljnjih istraživačkih putovanja. Uskoro su mnogi Europljani, uključujući Španjolce, Portugalce, Francuze i Engleze, započeli istraživanja i kolonizaciju novootkrivenih područja.</p>
+              </div>
+              <img src="Maturski_rad_slike/Kolumbo.jpg">
+            </div>
+            <p>Jedna od najvažnijih posljedica Kolumbovih putovanja bila je Kolumbovska razmjena, koja se odnosi na ogromnu razmjenu biljaka, životinja, ljudi, tehnologije i bolesti između Europe, Afrike i Amerike. Europljani su u Ameriku donijeli konje, stoku, pšenicu, šećer, kao i bolesti poput velikih boginja, ospica i gripe, koje su devastirale autohtono stanovništvo, koje nije imalo prirodni imunitet na ove bolesti. Istodobno, Europljani su iz Amerike u Europu donijeli kukuruz, krumpir, rajčicu, duhan, čokoladu i druge biljke koje su postale ključne za europsku prehranu i gospodarstvo.</p>
+            <img src="Maturski_rad_slike/Mapa.png" class="mapa">
+            <p>Iako je Kolumbo bio cijenjen zbog svojih pomorskih podviga, njegova uloga u kolonizaciji i načinu na koji je tretirao autohtone stanovnike Novog svijeta donijela mu je miješanu ostavštinu. Kao guverner na otoku Hispaniola, Kolumbo je bio optužen za okrutnost i zloupotrebu vlasti prema autohtonim stanovnicima i europskim kolonistima. Mnogi danas kritiziraju Kolumba zbog pokretanja procesa koji je rezultirao patnjom i uništenjem mnogih autohtonih zajednica u Americi.</p>
+            <p>Kolumbovo otkriće označilo je početak doba velikih geografskih otkrića, tijekom kojeg su europske sile istražile i kolonizirale velik dio svijeta. To je otvorilo vrata razvoju trgovačkih carstava, širenju europske kulture i jezika te, s vremenom, do formiranja novih nacija u Americi, uključujući Sjedinjene Američke Države i brojne zemlje Latinske Amerike.</p>
+            <p>Iako Kolumbo nije bio prvi koji je otkrio Ameriku (vikinški istraživači, kao što je Leif Erikson, posjetili su sjevernoameričke obale stoljećima ranije), njegovo otkriće imalo je mnogo veći utjecaj jer je započelo stalnu i organiziranu povezanost između Starog i Novog svijeta.</p>
+            <p>Kolumbo je umro u uvjerenju da je pronašao put do Azije, a tek kasnije su europski istraživači shvatili da je otkrio novi kontinent.</p>
+            <div class="podaci_o_maturskom">
+              <p> Mentorica: Meri Radišić-Dedić</p>
+              <p> Naziv škole: <a href="https://www.ksc-sarajevo.com/" target="_blank">KŠC "SV. JOSIP" - OPĆA REALNA GIMNAZIJA</a> </p>
+              <p> Lokacija: Sarajevo </p>
+              <p> Adresa: Mehmed paše Sokolovića 11, 71 000 Sarajevo, BiH</p>
+            </div>
+          </div>
+          
+        </div>
+        <div id="Projekti">
+          <h1> Projekti </h1>
+          <div class="Projekt1">
+            <h2> Balansirano stablo </h2>
+            <p>
+              Napraviti generičku strukturu podataka koja čuva elemente kao binarno stablo pretrage. Stablo održava
+              balansiranost na sljedeći način: kada se na visini barem 3 desi da je broj elemenata u jednom podstablu duplo
+              veći od broja elemenata u drugom podstablu, podstablo tog čvora se mijenja. To se radi tako što se od
+              elemenata podstabla napravi sortirani niz i onda se napravi podstablo koje je idealno balansirano. Samo
+              prilikom umetanja i brisanja koji zahtijevaju balansiranje je dozvoljeno vrijeme sporije od 𝑂(log 𝑛).
+            </p>
+            <div class="slike_projekat1">
+              <div>
+                <img src="slike_projekat_1/slika_bez_balansiranja.png">
+                <p> Slika 1: Čvorovi bez balansiranja.</p>
+              </div>
+              <div>
+                <img src="slike_projekat_1/slika_sa_balansiranjem.png">
+                <p> Slika 2: Čvorovi sa balansiranjem.</p>
+              </div>
+            </div>
+          </div>
+          <div class="Projekt2">
+            <h2> Portfolio stranica </h2>
+            <p>
+              Uz prijave za poslove u IT sektoru kandidati dostavljaju svoj CV, te navode projekte na kojima su
+              učestvovali. Često je poželjno da kandidat svoje predstavljanje uradi putem web stranice. Stoga,
+              kreiraju se portfolio stranice. Portfolio ima za cilj da predstavi kandidata, te na zanimljiv i
+              kvalitetan način privuče pažnju poslodavaca i klijenata. Stranica treba da predstavi programera,
+              njegove programerske vještine i iskustvo. Kreirajte vašu portfolio stranicu!
+            </p>
+            <div class="slika_projekta2">
+              <img src="slike_projekat_2/Slika_portfolia.png">
+              <p>slika mog portfolia </p>
+            </div>            
+          </div>
+        </div>
+
+        <div id="Moj_CV">
+          <h1>Moj CV</h1>
+          <a href="Moj CV.pdf" target="_blank" style="text-decoration: none;"><button class="dugme_za_cv"> Kliknite ovdje za CV </button></a>
+        </div>
+    </main>
+    <footer>
+        <div class="home_dugme">
+          <a href="#top"><img src="glyphicon/house.svg" class="home"></a>
+        </div>
+        <div class="sredina_footera">
+          <p> 2024 &copy;</p>
+        </div>
+        <div class="drustvene_mreze">
+          <a href="https://hr-hr.facebook.com/" target="_blank"><img src="glyphicon/facebook.svg"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="glyphicon/instagram.svg"></a>
+          <a href="https://x.com/" target="_blank"><img src="glyphicon/twitter.svg"></a>
+        </div>
+    </footer>
+  </body>
+  </html>

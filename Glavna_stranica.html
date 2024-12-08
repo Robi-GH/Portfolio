@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Početna </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon/ikona.png">
+    <link rel="stylesheet" href="common_styles/general.css">
+    <link rel="stylesheet" href="common_styles/footer.css">
+    <link rel="stylesheet" href="common_styles/header.css">
+    <link rel="stylesheet" href="Glavna_stranica.css">
+  </head>
+  <body>
+    <header>
+        <a href="Glavna_stranica.html"><img src="slike/Profilna.png" class="moja_slika"></a>
+        <div class="pretraga">
+          <input class="search_bar" type="text" placeholder="Search" style="padding-left: 10px;"> 
+          <button class="dugme_za_pretragu"><img src="glyphicon/pretraga.png" class="ikona_za_pretragu"></button>
+        </div>
+        <input type="checkbox" id="side_navigacija">
+        <div class="dugmadi_za_navigaciju_mini">
+          <label for="side_navigacija" class="dugme_malo"><img class="ikona_za_navigaciju" src="glyphicon/list.svg"></label>
+        </div>
+        <div class="dugmadi_za_navigaciju">      
+          <a href="Glavna_stranica.html"><button class="dugme_header"> Početna </button></a> 
+          <a href="O_Meni.html"><button class="dugme_header"> O Meni </button></a>
+          <a href="Blog.html"><button class="dugme_header"> Blog </button></a>
+          <a href="Galerija_1.html"><button class="dugme_header"> Galerija 1 </button></a>
+          <a href="Galerija_2.html"><button class="dugme_header"> Galerija 2 </button></a>
+        </div>
+    </header>
+    <main>
+      <div class="Dobrodošli">
+        <div class="Dobrodošlica_text" id="Dobrodošli_id">
+          <h1>
+            Robert Marić
+          </h1>
+          <h2>
+            DOBRODOŠLI NA MOJ PORTFOLIO
+          </h2>
+        </div>
+        <div class="Kontakt" id="Kontakt_id">
+          <h2>Kontaktirajte me: </h2>
+          <div class="forma">
+            <div id="ime" class="naslovi">
+              Ime:
+            </div>
+            <div id="prezime" class="naslovi">
+              Prezime:
+            </div>
+            <input type="text" id ="ime_input" class="input">
+            <input type="text" id ="prezime_input" class="input">
+            <div id="email" class="naslovi">
+              Email:
+            </div>
+            <input type="text" id="email_input" class="input">
+            <div id="naslov" class="naslovi">
+              Naslov:
+            </div>
+            <input type="text" id="naslov_input" class="input">
+            <div id="poruka" class="naslovi">
+              Poruka:
+            </div>
+            <input type="text" id="poruka_input" class="input">
+          </div>
+          <button class="send-button"> Submit </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <div class="home_dugme">
+          <a href="#top"><img src="glyphicon/house.svg" class="home"></a>
+        </div>
+        <div class="sredina_footera">
+          <p> 2024 &copy;</p>
+        </div>
+        <div class="drustvene_mreze">
+          <a href="https://hr-hr.facebook.com/" target="_blank"><img src="glyphicon/facebook.svg"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="glyphicon/instagram.svg"></a>
+          <a href="https://x.com/" target="_blank"><img src="glyphicon/twitter.svg"></a>
+        </div>
+    </footer>
+  </body>
+  </html>

@@ -1,0 +1,65 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 3px solid black;
+
+}
+
+.okvir_slika {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  height:auto;
+  transition: 0.4s ease;
+  font-size: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(1, 1, 69);
+  text-align: center;
+}
+
+.okvir_slika img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.okvir_slika:hover{
+  font-size: small; 
+}
+
+h2{
+  height: 25px;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+p {
+  height: 20px;
+  margin: 0;
+}
+
+video {
+  width: 80%;
+  border-radius: 12px;
+}
+
+
+@media (max-width:1000px) {
+  main{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width:700px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
